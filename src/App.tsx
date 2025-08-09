@@ -5,6 +5,8 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import ProjectSection from './components/ProjectSection';
+import { SkillsSection } from './components/SkillsSection';
+import Divider from './components/divider';
 
 function App() {
   return (
@@ -15,23 +17,17 @@ function App() {
       <section id="about">
         <About />
       </section>
-        <div style={{
-          width: '80%',
-          height: '2px',
-          backgroundColor: 'white',
-          margin: '32px auto'
-        }} />
+      <Divider />
       <section id="work-experience">
         <WorkExperience />
       </section>
-        <div style={{
-          width: '80%',
-          height: '2px',
-          backgroundColor: 'white',
-          margin: '32px auto'
-        }} />
+      <Divider />
       <section id = "projects">
         <ProjectSection />
+      </section>
+      <Divider />
+      <section id='skills'>
+        <SkillsSection />
       </section>
     </div>
   );

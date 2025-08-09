@@ -1,9 +1,10 @@
 const ProjectInfoArray = [
     {
-        'titlke': 'Project One',
+        'title': 'Project One',
         'description': 'This is a description of Project One. It showcases the main features and functionalities of the project.',
-        'img': '../img/project1.jpg',
+        'img': '../img/LinkedIN.jpg',
         'link': '',
+        'techStack': 'React, Node.js, MongoDB',
     },
 ];
 
