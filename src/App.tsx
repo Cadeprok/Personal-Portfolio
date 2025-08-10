@@ -7,6 +7,8 @@ import WorkExperience from './components/WorkExperience';
 import ProjectSection from './components/ProjectSection';
 import { SkillsSection } from './components/SkillsSection';
 import Divider from './components/divider';
+import ActivitiesSection from './components/ActivitiesSection';
+import { ResumeDownloadables } from './components/ResumeDownloadables';
 
 function App() {
   return (
@@ -26,9 +28,20 @@ function App() {
         <ProjectSection />
       </section>
       <Divider />
+      <section>
+        <ActivitiesSection />
+      </section>
+      <Divider />
       <section id='skills'>
         <SkillsSection />
       </section>
+      <br /><br />
+      <section id="contact">
+        <ResumeDownloadables />
+      </section>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

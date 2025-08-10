@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.h2{
+  font-size:48px;
+}
+.aboutMeContainer{
+  display:grid;
+  grid-template-columns: 600px 400px;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImg{
+  border-radius: 50%;
+  width:'500px';
+  height:500px;
+}
+@media screen and (max-width:1300px){
+  .aboutMeContainer{
+    display:block;
+    padding: 50px;
+  }
+  .h2{
+    font-size: 32px;
+  }
+}
