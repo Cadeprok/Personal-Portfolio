@@ -4,7 +4,7 @@ import { ProjectInfoArray, ProjectInfoType } from "../items/projectsinfo";
 function ProjectSection() {
     return <div>
         <div>
-            <h1 style={{ fontSize: '48px', textAlign: 'center' }} className="h2Smaller">
+            <h1 style={{ textAlign: 'center' }} className="header">
                 Projects
             </h1>
         </div>

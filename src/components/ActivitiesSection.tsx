@@ -4,7 +4,7 @@ import { ActivityInfoArray } from "../items/activitiesinfo";
 
 export default function ActivitiesSection() {
     return <div>
-        <h1 style={{fontSize:'48px'}}>Activities</h1>
+        <h1 className="header">Activities</h1>
         <div style={{padding:'0px 60px 0px 60px'}}>
             {ActivityInfoArray.map((activity, index) => (
                 <div style={{display:'flex', width:'100%'}}>

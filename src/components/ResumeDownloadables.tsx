@@ -1,8 +1,8 @@
 import React from "react";
 
 function ResumeDownloadables() {
-    return <div style={{}}>
-        <div style={{display:'flex', justifyContent:'space-between', padding:'0px 180px 0px 180px'}}>
+    return <div>
+        <div className="resumeDownloadables">
             <div>
                 caderprokop@gmail.com
             </div>

@@ -7,7 +7,7 @@ function WorkExperience() {
     return (
         <div style={{ paddingTop: '0px' }} id="work-experience">
             <div>
-                <h1 style={{ fontSize: '48px', textAlign: 'center' }} className="h2">
+                <h1 style={{ textAlign: 'center' }} className="header">
                     Work Experience
                 </h1>
             </div>

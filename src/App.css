@@ -38,26 +38,114 @@
 }
 
 
-.h2{
+h2{
   font-size:48px;
 }
 .aboutMeContainer{
   display:grid;
-  grid-template-columns: 600px 400px;
+  grid-template-columns: 600px 300px;
   align-items: center;
   justify-content: center;
+  padding:50px;
 }
 .aboutImg{
   border-radius: 50%;
   width:'500px';
   height:500px;
 }
-@media screen and (max-width:1300px){
+.paragraphToPicturePadding{
+  padding-right:50px;
+}
+.pictureToParagraphPadding{
+  padding-left:50px;
+}
+.resumeDownloadables{
+  display:flex;
+  justify-content: space-between;
+  padding: 0 180px 0 180px
+}
+.skillsContent{
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.aboutImg{
+  border-radius: 50%;
+  width:500px;
+  height:500px;
+}
+.navFontSize{
+  font-size: 20px
+}
+.aboutMeContainerP{
+  font-size: 20px;
+}
+.header{
+  font-size:48px;
+}
+
+@media screen and (max-width: 370px) {
+  .aboutImg {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width:340px){
+  .navFontSize{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:400px){
+  .skillsContent{
+    font-size: 12px;
+  }
+  .h1{
+    font-size: 40px;
+  }
+
+}
+@media screen and (max-width:470px){
+  .navFontSize{
+    font-size: 14px;
+  }
+  .aboutMeContainerP{
+    font-size: 12px;
+  }
+  .header{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width:1420px){
   .aboutMeContainer{
     display:block;
     padding: 50px;
   }
-  .h2{
-    font-size: 32px;
+  .paragraphToPicturePadding{
+    padding-right:0px;
+  }
+  .pictureToParagraphPadding{
+    padding-left:0px;
+  }
+  h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:540px){
+  .aboutMeContainer{
+    padding: 20px;
+  }
+}
+@media screen and (max-width:850px){
+  .resumeDownloadables{
+    display:contents;
+  }
+  .skillsContent{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .aboutImg{
+    height:300px;
+    width:300px;
   }
 }
