@@ -2,8 +2,8 @@ import React from "react";
 import { workExperienceType } from "../items/workinfo"; 
 
 function WorkExperienceCard(work : workExperienceType) {
-    return <div style={{display:'flex', width:'100%'}}>
-        <div style={{width:'25%'}}>
+    return <div style={{display:'flex', width:'100%', height:'250px'}}>
+        <div style={{width:'25%', paddingTop:'20px'}}>
             <img src={work.img} alt={work.title} style={{width: '175px', height: '175px'}} />
         </div>
         <div style = {{width:'50%'}}>

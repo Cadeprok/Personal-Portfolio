@@ -9,7 +9,7 @@ export default function ActivitiesSection() {
             {ActivityInfoArray.map((activity, index) => (
                 <div style={{display:'flex', width:'100%'}}>
                         <div style={{width:'25%'}}>
-                            <img src="../img/LinkedIN.jpg" style={{height:'175px', width:'175px'}}/>
+                            <img src={activity.img} style={{height:'175px', width:'175px'}}/>
                         </div>
                         <div style = {{width:'50%'}}>
                             <div style={{display:'flex', justifyContent:'space-between'}}>

@@ -12,9 +12,9 @@ function ProjectSection() {
             {ProjectInfoArray.map((project, index) => (
                 <div style={{display:'flex', width:'100%'}}>
                         <div style={{width:'25%'}}>
-                            <img src={project.img} alt={project.title} style={{width: '175px', height: '175px'}} />
+                            <img src={project.img} alt={project.title} style={{width: '350px', height: '200px'}} />
                         </div>
-                        <div style = {{width:'50%', }}>
+                        <div style = {{width:'75%', paddingLeft:'20px' }}>
                             <div style={{display:'flex', justifyContent:'start'}}>
                                 <h4>
                                     {project.title}
