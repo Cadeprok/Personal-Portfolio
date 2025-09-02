@@ -7,11 +7,11 @@ export default function ActivitiesSection() {
         <h1 className="header">Activities</h1>
         <div style={{padding:'0px 60px 0px 60px'}}>
             {ActivityInfoArray.map((activity, index) => (
-                <div style={{display:'flex', width:'100%'}}>
-                        <div style={{width:'25%'}}>
+                <div className="activityContainer">
+                        <div className="activitiesImg">
                             <img src={activity.img} style={{height:'175px', width:'175px'}}/>
                         </div>
-                        <div style = {{width:'50%'}}>
+                        <div className="activitiesContent">
                             <div style={{display:'flex', justifyContent:'space-between'}}>
                                 <h4>
                                     {activity.title}

@@ -114,6 +114,16 @@ h2{
   width:350px;
   height:200px;
 }
+.activityContainer{
+  display:flex;
+  width:100%;
+}
+.activitiesImg{
+  width:25%;
+}
+.activitiesContent{
+  width:50%;
+}
 
 @media screen and (max-width: 370px) {
   .aboutImg {
@@ -212,4 +222,13 @@ h2{
     width:100%;
     padding-left:0px;
   }
+  .activityContainer{
+    display:contents;
+  }
+.activitiesImg{
+  width:100%;
+}
+.activitiesContent{
+  width:100%;
+}
 }
