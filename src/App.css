@@ -83,6 +83,37 @@ h2{
 .header{
   font-size:48px;
 }
+.workExperienceImgContainer{
+  width:25%;
+  padding-top:20px;
+}
+.totalContainer{
+  width:50%;
+}
+.experienceCard{
+  display:flex;
+  width:100%;
+  height:250px;
+}
+.projectCard{
+  display:flex;
+  width: 100%;
+}
+.projectTitle{
+  display:flex;
+  justify-content: start;
+}
+.projectTitleContainer{
+  width:75%;
+  padding-left: 20px;
+}
+.projectImgContainer{
+  width:25%;
+}
+.projectImgStyling{
+  width:350px;
+  height:200px;
+}
 
 @media screen and (max-width: 370px) {
   .aboutImg {
@@ -115,7 +146,24 @@ h2{
   .header{
     font-size: 36px;
   }
+  .projectImgStyling{
+    width:0px;
+    height:0px;
+  }
 }
+@media screen and (max-width:780px){
+  .experienceCard{
+    display:table;
+  }
+  .workExperienceImgContainer{
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    width:100%;
+  }
+}
+
+
 @media screen and (max-width:1420px){
   .aboutMeContainer{
     display:block;
@@ -147,5 +195,21 @@ h2{
   .aboutImg{
     height:300px;
     width:300px;
+  }
+  .totalContainer{
+    width:75%;
+  }
+  .projectCard{
+    display:contents;
+  }
+  .projectTitle{
+    display: contents;
+  }
+  .projectImgContainer{
+    width:100%;
+  }
+  .projectTitleContainer{
+    width:100%;
+    padding-left:0px;
   }
 }

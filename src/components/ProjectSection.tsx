@@ -10,17 +10,17 @@ function ProjectSection() {
         </div>
         <div style={{padding:'0px 60px 0px 60px'}}>
             {ProjectInfoArray.map((project, index) => (
-                <div style={{display:'flex', width:'100%'}}>
-                        <div style={{width:'25%'}}>
-                            <img src={project.img} alt={project.title} style={{width: '350px', height: '200px'}} />
+                <div className="projectCard">
+                        <div className="projectImgContainer">
+                            <img src={project.img} alt={project.title} className="projectImgStyling"/>
                         </div>
-                        <div style = {{width:'75%', paddingLeft:'20px' }}>
-                            <div style={{display:'flex', justifyContent:'start'}}>
+                        <div className="projectTitleContainer">
+                            <div className="projectTitle">
                                 <h4>
                                     {project.title}
                                 </h4>
                             </div>
-                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                            <div className="projectInfo" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                                 <p style={{ margin: 0 }}>
                                     {project.description}
                                 </p>

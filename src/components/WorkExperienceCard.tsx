@@ -2,11 +2,11 @@ import React from "react";
 import { workExperienceType } from "../items/workinfo"; 
 
 function WorkExperienceCard(work : workExperienceType) {
-    return <div style={{display:'flex', width:'100%', height:'250px'}}>
-        <div style={{width:'25%', paddingTop:'20px'}}>
+    return <div className="experienceCard">
+        <div className="workExperienceImgContainer">
             <img src={work.img} alt={work.title} style={{width: '175px', height: '175px'}} />
         </div>
-        <div style = {{width:'50%'}}>
+        <div className="totalContainer">
             <div style={{display:'flex', justifyContent:'space-between'}}>
                 <h4>
                     {work.title} - {work.company}
