@@ -1,6 +1,4 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import About from './About';
 
 
 // Make the a hrefs a loop that contacts an array

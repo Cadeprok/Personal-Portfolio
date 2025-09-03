@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectInfoArray, ProjectInfoType } from "../items/projectsinfo";
+import { ProjectInfoArray } from "../items/projectsinfo";
 
 function ProjectSection() {
     return <div>

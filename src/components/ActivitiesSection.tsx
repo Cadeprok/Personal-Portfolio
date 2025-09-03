@@ -9,7 +9,7 @@ export default function ActivitiesSection() {
             {ActivityInfoArray.map((activity, index) => (
                 <div className="activityContainer">
                         <div className="activitiesImg">
-                            <img src={activity.img} style={{height:'175px', width:'175px'}}/>
+                            <img src={activity.img} alt={"activity_" + index} style={{height:'175px', width:'175px'}}/>
                         </div>
                         <div className="activitiesContent">
                             <div style={{display:'flex', justifyContent:'space-between'}}>
